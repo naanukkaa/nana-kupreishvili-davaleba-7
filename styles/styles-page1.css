@@ -1,4 +1,3 @@
-/* საერთო კოდი */
 body {
   background-color: white;
   padding-top: 160px; /* Push content down so it's not hidden under fixed header */
@@ -510,62 +509,74 @@ input[type="text"]:focus {
 	margin-left: 40px;
 }
 
-
 /*footer*/
+.information {
+  margin-top: 76px;
+  height: auto;
+  width: 100%;
+  background-color: #EC1C24;
+  padding: 50px 47px;
+}
 
-.information{
-	margin-top: 76px;
-	height: 557px;
-	width: auto;
-	background-color: #EC1C24;
-	border: 1px solid #EC1C24;
+.logos {
+  display: inline-block; 
+  vertical-align: top;
+  margin-right: 50px;
 }
 
 .footer-logo{
 	height: 52px;
 	width: 265px;
 	margin-top: 96px;
-	margin-left: 108px;
 	display: inline-block;
 }
 
 .app-logos{
 	height: 32px;
 	width: 182px;
-	margin-left: 149px;
+	margin-left: 29px;
 	margin-top: 126px;
 	display: block;
 }
 
-.column1{
-	display: inline-block;
+.column1 {
+  display: inline-block; 
   vertical-align: top;
+  width: 210px; 
+  margin-right: 60px;
+  margin-top: 0;
 }
 
-.title{
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 47px;
-	margin-top: 96px;
-	font-weight: 700;
-	font-size: 20px;
+.title {
   font-family: "BPG Mrgvlovani Caps", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
   color: white;
+  margin-bottom: 20px;
 }
 
 .column-p{
-	margin-top: 16px;
-	margin-left: 47px;
-	font-weight: 400;
-	font-size: 14px;
-  font-family: "BPG Mrgvlovani", sans-serif;	
+  font-family: "BPG Mrgvlovani", sans-serif;
   color: white;
+  font-size: 14px;
+  font-weight: 400;
 }
 
-.column-p2{
-	margin-top: 10px;
-	font-weight: 400;
-	font-size: 14px;
-  font-family: "BPG Mrgvlovani", sans-serif;	
+.column-p2 {
+	font-family: "BPG Mrgvlovani", sans-serif;
   color: white;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 10px;
 }
