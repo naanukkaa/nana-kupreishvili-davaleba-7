@@ -113,9 +113,9 @@ input[type="text"]:focus {
 }
 
 /* მთავარი გვერდის კოდი */
-.main {
-  text-align: center;
-}
+	.main {
+	  text-align: center;
+	}
 
 .main-picture {
   height: 294px;
@@ -255,4 +255,193 @@ input[type="text"]:focus {
 .span4{
 	font-weight: 700;
 	color: #462214;
+}
+
+/*ბრენდები*/
+
+.brands{
+	margin-top: 82px;
+	margin-left: 155px;
+}
+.brands-title{
+	font-size: 24px;
+	font-weight: 700;
+	font-family: "BPG Mrgvlovani", sans-serif;
+	display: inline-block;
+}
+
+.brands-title-a{
+	font-size: 14px;
+	margin-left: 931px;
+	font-weight: 400;
+	font-family: "BPG Mrgvlovani", sans-serif;
+	display: inline-block;
+}
+
+.brands-img{
+	margin-top: 24px;
+}
+
+/*ჟურნალები*/
+
+.magazines{
+	margin-top: 82px;
+	margin-left: 155px;
+}
+
+.magazines-title{
+	font-size: 24px;
+	font-weight: 700;
+	font-family: "BPG Mrgvlovani", sans-serif;
+	display: inline-block;
+}
+
+.magazines-title-a{
+	font-size: 14px;
+	margin-left: 840px;
+	font-weight: 400;
+	font-family: "BPG Mrgvlovani", sans-serif;
+	display: inline-block;
+}
+
+.magazines-img{
+	margin-top: 24px;
+}
+
+/*პოპულარული პროდუქტები*/
+
+.products{
+	margin-top: 82px;
+	margin-left: 155px;
+}
+
+
+.products-title{
+	font-size: 24px;
+	font-weight: 700;
+	font-family: "BPG Mrgvlovani", sans-serif;
+	display: inline-block;
+}
+
+.products-title-p{
+	font-size: 14px;
+	margin-left:695px;
+	font-weight: 400;
+	font-family: "BPG Mrgvlovani", sans-serif;
+	display: inline-block;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #EC1C24;
+  color: white;
+  padding: 4px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 12px;
+  font-family: "BPG Mrgvlovani", sans-serif;
+  z-index: 1;
+}
+
+.products-img {
+  position: relative;
+  width: 250px;
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  margin-right: 16px;
+  margin-top: 24px;
+  margin-left: 50px;
+  vertical-align: top;
+}
+
+.img-product {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.img-product-p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "BPG Mrgvlovani", sans-serif;
+  line-height: 1.3;
+  margin-bottom: 6px;
+  position: static;
+}
+
+.img-product-p2 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "BPG Mrgvlovani", sans-serif;
+  color: #EC1C24;
+}
+
+.product-span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #1C1B1F80;
+  text-decoration: line-through;
+  margin-left: 6px;
+}
+
+.products-img2{
+	position: relative;
+  width: 250px;
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  margin-right: 16px;
+  margin-left: 24px;
+  margin-top: 24px;
+  vertical-align: top;
+}
+
+.product-wrapper {
+  position: relative;
+  margin-top: 24px;
+}
+
+.product-list {
+  display: inline-block;
+}
+
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.arrow:hover {
+  transform: translateY(-50%) scale(1.1);
+  background-color: #f5f5f5;
+}
+
+/*პარტნიორები*/
+
+.line{
+	margin-top: 90px;
+	margin-left: 70px;
+	margin-bottom: 48px;
+	height: 1px;
+	width: 1224px;
+	background-color: #1C1B1F80;
 }
