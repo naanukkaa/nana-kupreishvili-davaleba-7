@@ -1,70 +1,155 @@
-body{
-	background-color: white;
+/* საერთო კოდი */
+body {
+  background-color: white;
+  padding-top: 160px; /* Push content down so it's not hidden under fixed header */
 }
-/*header code*/
 
 header {
-	padding: 20px 0;
-	position: fixed;
-	width: 100%;
-	margin-left: ;
-	top: 0;
-	z-index: 100;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  background-color: white;
 }
 
 a {
-	color: black;
-	font-family: "BPG Mrgvlovani", sans-serif;
-	text-transform: uppercase;
-	font-size: 11px;
-	font-weight: 700;
+  color: black;
+  font-family: "BPG Mrgvlovani", sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
 }
 
-.active{
-	color: #EC1C24;
+.active {
+  color: #EC1C24;
 }
 
 li {
-	display: inline-block;
-	margin-left: 40px;
+  display: inline-block;
+  margin-left: 40px;
 }
 
 nav {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.navigation{
-	border-top-color: 1px solid #1C1B1F59;
-	border-bottom-color: 1px solid #1C1B1F59;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .container {
-	max-width: 1600px;
- 	 width: 90%;
-  	margin: 0 auto;
+  max-width: 1600px;
+  width: 90%;
+  margin: 0 auto;
 }
 
-.shipping{
-	height: 12px;
-	width: 12px;
-	margin-left: 4px;
-	margin-right: 124px;
-	vertical-align: middle;
+/* Header */
+.navigation {
+  padding: 20px 0;
+  background-color: white;
+  text-align: center;
 }
 
-.search{
-	height: 18px;
-	width: 18px;
-	vertical-align: top;
+.search {
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+  margin-left: 50px;
+  margin-right: 4px;
 }
-/*search bar*/
 
-input[type=text] {
+input[type="text"] {
   width: 100px;
+  padding: 2px;
+  font-family: "BPG Mrgvlovani", sans-serif;
+  font-size: 11px;
 }
 
-input[type=text]:focus {
+input[type="text"]:focus {
   width: 150px;
   transition: 1s;
-}	
+}
+
+.top-logo {
+  height: 32px;
+  width: 234px;
+  vertical-align: middle;
+  margin-left: 280px;
+  margin-right: 355px;
+}
+
+.person {
+  height: 28px;
+  width: 28px;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.shopping-bag {
+  height: 28px;
+  width: 28px;
+  vertical-align: middle;
+  margin-left: 12px;
+}
+
+.flag {
+  height: 24px;
+  width: 36px;
+  vertical-align: middle;
+  margin-left: 32px;
+}
+
+.shipping {
+  height: 12px;
+  width: 12px;
+  margin-left: 4px;
+  margin-right: 180px;
+  vertical-align: middle;
+}
+
+.location-on {
+  margin-left: 275px;
+  height: 12px;
+  width: 12px;
+  vertical-align: middle;
+}
+
+/* მთავარი გვერდის კოდი */
+.main {
+  text-align: center;
+}
+
+.main-picture {
+  height: 294px;
+  width: 1224px;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-left: 35px;
+  border-radius: 2%;
+}
+
+.cards{
+	margin-top: 24px;
+	margin-left: 35px;
+	height: 140px;
+	width: 600px;
+	border-radius: 20px;
+}
+
+.cardN1{
+	height: 120px;
+	width: 600px;
+	background-color: #EC1C24;
+	border-radius: 20px;
+	margin-left: 40px;
+	margin-top: 24px;
+	display: inline-block;
+}
+
+.cardN2{
+	height: 120px;
+	width: 600px;
+	background-color: #EC1C24;
+	border-radius: 20px;
+	margin-left: 35px;
+	margin-top: 24px;
+	display: inline-block;
+}
