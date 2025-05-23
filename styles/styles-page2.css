@@ -1,8 +1,7 @@
 /* საერთო კოდი */
 body {
   background-color: white;
-  padding-top: 160px; /* Push content down so it's not hidden under fixed header */
-}
+  padding-top: 160px; 
 
 header {
   padding: 20px 0;
@@ -112,6 +111,117 @@ input[type="text"]:focus {
   vertical-align: middle;
 }
 
+/*ჩვენს შესახებ-ს მთავარი კოდი*/
+
+
+
+.paragraph-title{
+  margin-left: 60px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "BPG Mrgvlovani", sans-serif;
+  color:#ff0000;
+  margin-bottom: 20px;
+}
+.paragraph-one{
+  margin-left: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "BPG Mrgvlovani", sans-serif;
+  color: #777777;
+  line-height: 1.6;
+  margin-bottom: 70px;
+}
+
+.aversi-logo{
+  margin-left: 60px;
+  height: 90px;
+  width: 500px;
+}
+
+.office{
+  margin-left: 120px;
+  margin-bottom: 30px;
+}
+
+.paragraph-span{
+  font-weight: 700;
+}
+
+/*პარტნიორები*/
+
+.line{
+  margin-top: 90px;
+  margin-left: 70px;
+  margin-bottom: 48px;
+  height: 1px;
+  width: 1224px;
+  background-color: #1C1B1F80;
+}
+
+.logo1{
+  display: inline-block;
+  height: 100px;
+  width: 165px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.logo2{
+  display: inline-block;
+  height: 100px;
+  width: 109px;
+  vertical-align: middle;
+  margin-left: 40px;
+}
+
+.logo3{
+  display: inline-block;
+  height: 100px;
+  width: 77px;
+  vertical-align: middle;
+  margin-left: 40px;
+}
+
+.logo4{
+  display: inline-block;
+  height: 100px;
+  width: 172px;
+  vertical-align: middle;
+  margin-left: 40px;
+}
+
+.logo5{
+  display: inline-block;
+  height: 100px;
+  width: 140px;
+  vertical-align: middle;
+  margin-left: 40px;
+}
+
+.logo6{
+  display: inline-block;
+  height: 100px;
+  width: 149px;
+  vertical-align: middle;
+  margin-left: 40px;
+}
+
+.logo7{
+  display: inline-block;
+  height: 100px;
+  width: 153px;
+  vertical-align: middle;
+  margin-left: 40px;
+}
+
+.logo8{
+  display: inline-block;
+  height: 100px;
+  width: 75px;
+  vertical-align: middle;
+  margin-left: 40px;
+}
 
 /*footer*/
 .information {
