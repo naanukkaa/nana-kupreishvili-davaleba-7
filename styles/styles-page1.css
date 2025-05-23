@@ -36,7 +36,7 @@ nav {
 }
 
 .container {
-  max-width: 1600px;
+  max-width: 1800px;
   width: 90%;
   margin: 0 auto;
 }
@@ -444,4 +444,128 @@ input[type="text"]:focus {
 	height: 1px;
 	width: 1224px;
 	background-color: #1C1B1F80;
+}
+
+.logo1{
+	display: inline-block;
+	height: 100px;
+	width: 165px;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+.logo2{
+	display: inline-block;
+	height: 100px;
+	width: 109px;
+	vertical-align: middle;
+	margin-left: 40px;
+}
+
+.logo3{
+	display: inline-block;
+	height: 100px;
+	width: 77px;
+	vertical-align: middle;
+	margin-left: 40px;
+}
+
+.logo4{
+	display: inline-block;
+	height: 100px;
+	width: 172px;
+	vertical-align: middle;
+	margin-left: 40px;
+}
+
+.logo5{
+	display: inline-block;
+	height: 100px;
+	width: 140px;
+	vertical-align: middle;
+	margin-left: 40px;
+}
+
+.logo6{
+	display: inline-block;
+	height: 100px;
+	width: 149px;
+	vertical-align: middle;
+	margin-left: 40px;
+}
+
+.logo7{
+	display: inline-block;
+	height: 100px;
+	width: 153px;
+	vertical-align: middle;
+	margin-left: 40px;
+}
+
+.logo8{
+	display: inline-block;
+	height: 100px;
+	width: 75px;
+	vertical-align: middle;
+	margin-left: 40px;
+}
+
+
+/*footer*/
+
+.information{
+	margin-top: 76px;
+	height: 557px;
+	width: auto;
+	background-color: #EC1C24;
+	border: 1px solid #EC1C24;
+}
+
+.footer-logo{
+	height: 52px;
+	width: 265px;
+	margin-top: 96px;
+	margin-left: 108px;
+	display: inline-block;
+}
+
+.app-logos{
+	height: 32px;
+	width: 182px;
+	margin-left: 149px;
+	margin-top: 126px;
+	display: block;
+}
+
+.column1{
+	display: inline-block;
+  vertical-align: top;
+}
+
+.title{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 47px;
+	margin-top: 96px;
+	font-weight: 700;
+	font-size: 20px;
+  font-family: "BPG Mrgvlovani Caps", sans-serif;
+  color: white;
+}
+
+.column-p{
+	margin-top: 16px;
+	margin-left: 47px;
+	font-weight: 400;
+	font-size: 14px;
+  font-family: "BPG Mrgvlovani", sans-serif;	
+  color: white;
+}
+
+.column-p2{
+	margin-top: 10px;
+	font-weight: 400;
+	font-size: 14px;
+  font-family: "BPG Mrgvlovani", sans-serif;	
+  color: white;
 }
