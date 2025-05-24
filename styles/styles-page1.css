@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  padding-top: 160px; /* Push content down so it's not hidden under fixed header */
+  padding-top: 160px;
 }
 
 header {

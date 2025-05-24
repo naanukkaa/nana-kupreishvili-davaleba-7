@@ -1,9 +1,8 @@
 /* საერთო კოდი */
 body {
   background-color: white;
-  padding-top: 160px; /* Push content down so it's not hidden under fixed header */
+  padding-top: 160px;
 }
-
 header {
   padding: 20px 0;
   position: fixed;
@@ -220,6 +219,82 @@ input[type="text"]:focus {
   height: auto;
   border: 2px solid #ccc;
 }
+
+/*პარტნიორები*/
+
+.line{
+  margin-top: 90px;
+  margin-bottom: 48px;
+  height: 1px;
+  width: 1224px;
+  background-color: #1C1B1F80;
+}
+
+.logo1{
+  display: inline-block;
+  height: 100px;
+  width: 165px;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.logo2{
+  display: inline-block;
+  height: 100px;
+  width: 109px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.logo3{
+  display: inline-block;
+  height: 100px;
+  width: 77px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.logo4{
+  display: inline-block;
+  height: 100px;
+  width: 172px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.logo5{
+  display: inline-block;
+  height: 100px;
+  width: 140px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.logo6{
+  display: inline-block;
+  height: 100px;
+  width: 149px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.logo7{
+  display: inline-block;
+  height: 100px;
+  width: 153px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.logo8{
+  display: inline-block;
+  height: 100px;
+  width: 75px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+
 /*footer*/
 .information {
   margin-top: 76px;

@@ -1,7 +1,7 @@
 /* საერთო კოდი */
 body {
   background-color: white;
-  padding-top: 160px; /* Push content down so it's not hidden under fixed header */
+  padding-top: 160px;
 }
 
 header {
@@ -156,6 +156,64 @@ input[type="text"]:focus {
   display: inline-block;
 }
 
+/*ვერიფიკაცია*/
+
+.contact-p-2{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "BPG Mrgvlovani Caps", sans-serif;
+  vertical-align: middle;
+  color: #999999;
+  margin-left: 120px;
+  display: inline-block;
+}
+.name3{
+  height: 50px;
+  width: 150px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  margin-left: 120px;
+}
+
+.verification-icon{
+  height: 50px;
+  width: 150px;
+  display: block;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+
+.verification-button {
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  background-color: #EC1C24;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  transform: translateY(-50%);
+  z-index: 1;
+  display: block;
+  margin-left: 120px;
+  margin-top: 40px;
+  border: 1px solid #EC1C24;
+}
+
+.verification-button:hover {
+  transform: translateY(-50%) scale(1.1);
+}
+
+.verification-p{
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "BPG Mrgvlovani Caps", sans-serif;
+  color: white;
+  position: relative;
+  top: 10px;
+  left: 25px;
+  vertical-align: middle;
+}
+
 /*კონტაქტის ინფორმაცია*/
 
 .contact-title-2{
@@ -213,6 +271,90 @@ span{
   margin-left: 40px;
   display: inline-block;
 }
+
+/*პარტნიორები*/
+
+.line{
+  margin-top: 90px;
+  margin-bottom: 48px;
+  height: 1px;
+  width: 1224px;
+  background-color: #1C1B1F80;
+}
+
+.logo1{
+  display: inline-block;
+  height: 100px;
+  width: 165px;
+  vertical-align: middle;
+}
+
+.logo2{
+  display: inline-block;
+  height: 100px;
+  width: 109px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.logo3{
+  display: inline-block;
+  height: 100px;
+  width: 77px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.logo4{
+  display: inline-block;
+  height: 100px;
+  width: 172px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.logo5{
+  display: inline-block;
+  height: 100px;
+  width: 140px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.logo6{
+  display: inline-block;
+  height: 100px;
+  width: 149px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.logo7{
+  display: inline-block;
+  height: 100px;
+  width: 153px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.logo8{
+  display: inline-block;
+  height: 100px;
+  width: 75px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+
+.logo8{
+  display: inline-block;
+  height: 100px;
+  width: 75px;
+  vertical-align: middle;
+  margin-left: 40px;
+}
+
+
 /*footer*/
 .information {
   margin-top: 76px;
