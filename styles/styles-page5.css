@@ -112,8 +112,107 @@ input[type="text"]:focus {
   vertical-align: middle;
 }
 
+/*მთავარი კოდი*/
 
+/*წერილის ბოქსი*/
 
+.contact-title{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "BPG Mrgvlovani Caps", sans-serif;
+  color: #999999;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 70px;
+}
+
+.name1{
+  height: 60px;
+  width: 300px;
+  font-size: 15px;
+  font-family: "BPG Mrgvlovani Caps", sans-serif;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+.name2{
+  height: 300px;
+  width: 800px;
+  font-size: 20px;
+  font-family: "BPG Mrgvlovani Caps", sans-serif;
+  display: inline-block;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  vertical-align: top;
+}
+
+.contact-p{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "BPG Mrgvlovani Caps", sans-serif;
+  vertical-align: middle;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+/*კონტაქტის ინფორმაცია*/
+
+.contact-title-2{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "BPG Mrgvlovani Caps", sans-serif;
+  color: #EC1C24;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+
+.contact-info{
+  display: inline-block;
+}
+.contact-icon{
+  margin-left: 30px;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 40px;
+  margin-right: 10px;
+}
+
+.person-icon{
+  margin-left: 30px;
+  height: 60px;
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 40px;
+  margin-right: 10px;
+}
+
+span{
+  font-weight: 700;
+}
+
+.blue-span{
+  color: #3366ff;
+}
+
+.contact-p-info{
+  font-size: 20px;
+  font-family: "BPG Mrgvlovani", sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  line-height: 1.2;
+}
+
+.map{
+  margin-left: 40px;
+  display: inline-block;
+}
 /*footer*/
 .information {
   margin-top: 76px;

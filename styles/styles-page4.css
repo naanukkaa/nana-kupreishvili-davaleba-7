@@ -112,7 +112,114 @@ input[type="text"]:focus {
   vertical-align: middle;
 }
 
+/*მთავარი კოდი*/
 
+.banner{
+  background-image: url(../images/magazines/banner.jpg);
+  height: 400px;
+  width: auto;
+  border: 1px solid white;
+}
+
+.banner-title{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "BPG Mrgvlovani Caps", sans-serif;
+  display: inline-block;
+  position: relative;
+  top: 140px;
+  left: 50px;
+}
+
+.stack{
+  position: relative;
+  top: 50px;
+  right: 400px;
+}
+
+/*ანიმაცია*/
+.magazine-container {
+  text-align: center;
+}
+
+.magazine-book {
+  display: inline-block;
+  width: 230px;
+  height: 300px;
+  position: relative;
+  left: 650px;
+  transform-style: preserve-3d;
+  transition: transform 1s ease;
+  transform: rotate(15deg);
+  margin: 0 auto;
+}
+
+.magazine-page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  backface-visibility: hidden;
+}
+
+.front {
+  background-image: url('../images/magazines/2025N3.jpg'); /* Your cover image */
+  z-index: 2;
+}
+
+.back {
+  background-image: url('../images/magazines/magazine-inside.jpg'); /* Your inside page */
+  transform: rotateY(180deg);
+
+}
+
+.magazine-book:hover {
+  transform: rotateY(180deg);
+}
+
+
+/*ჟურნალების ვარიანტები*/
+
+.magazines-title{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "BPG Mrgvlovani Caps", sans-serif;
+  color: #EC1C24;
+  margin-top: 60px;
+  margin-left: 600px;
+  margin-bottom: 70px;
+}
+
+.archive {
+  display: inline-block;
+}
+
+.cover {
+  display: inline-block;
+  margin: 10px;
+  transform: rotate(-30deg);
+  filter: grayscale(100%);
+  transition: transform 0.5s ease;
+  margin-right: 120px;
+  margin-left: 130px;
+  margin-bottom: 100px;
+}
+
+.cover:hover {
+  transform: rotate(0deg);
+  filter: grayscale(0%);
+}
+
+.cover img {
+  width: 200px;
+  height: auto;
+  border: 2px solid #ccc;
+}
 /*footer*/
 .information {
   margin-top: 76px;
