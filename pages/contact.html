@@ -17,58 +17,66 @@
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	</head>
 <body>
-	<header>
-		<div class="container">
-			 <img src="../images/header/search.svg" class="search">
-			 ძებნა: <input type="ძებნა" name="ძებნა">
-			 <img src="../images/header/top-logo.png" class="top-logo">
+ <header>
+    <!-- Top bar -->
+    <div class="navigation container">
+      <img src="../images/header/search.svg" class="search">
+      <input type="text" placeholder="ძებნა">
 
-			 <img src="../images/header/person.svg" class="person">
-			 <img src="../images/header/shopping_bag.svg" class="shopping-bag">
-			 <img src="../images/header/flag.svg" class="flag">
-		</div>
+      <img src="../images/header/top-logo.png" class="top-logo">
 
-			<div class="navigation container">
-					<nav>
-						<ul>
-							<li>
-								<a href="#">ადგილზე მიტანა</a>
-								<img src="../images/header/local_shipping.svg" class="shipping">
-							</li>
-							<li>
-								<a href="../index.html">მთავარი</a>
-							</li>
-							<li>
-								<a href="about-us.html">ჩვენს შესახებ</a>
-							</li>
-							<li>
-								<a href="brands.html">ბრენდები</a>
-							</li>
-							<li>
-								<a href="magazines.html">ჟურნალი</a>
-							</li>
-							<li>
-								<a href="contact.html" class="active">კონტაქტი</a>
-							</li>
-							<li>
-								<img src="../images/header/location_on.svg" class="location-on">
-								<a href="apothecas.html" class="corner">აფთიაქები</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-	</header>
+      <img src="../images/header/person.svg" class="person">
+      <img src="../images/header/shopping_bag.svg" class="shopping-bag">
+      <img src="../images/header/flag.svg" class="flag">
+    </div>
+
+    <!-- Navigation menu -->
+    <div class="navigation container">
+      <nav>
+        <ul>
+          <li>
+            <a href="#">ადგილზე მიტანა</a>
+            <img src="../images/header/local_shipping.svg" class="shipping">
+          </li>
+          <li>
+            <a href="../index.html">მთავარი</a>
+          </li>
+          <li>
+            <a href="about-us.html">ჩვენს შესახებ</a>
+          </li>
+          <li>
+            <a href="brands.html">ბრენდები</a>
+          </li>
+          <li>
+            <a href="magazines.html">ჟურნალი</a>
+          </li>
+          <li>
+            <a href="contact.html" class="active">კონტაქტი</a>
+          </li>
+          <li class="apothecas-opt">
+            <img src="../images/header/location_on.svg" class="location-on">
+            <a href="apothecas.html" class="corner">აფთიაქები</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
 
 	<section>
 		<div class="contact container">
 			<div class="message-box">
 				<h1 class="contact-title">მოგვწერეთ შეტყობინება</h1>
+					<div class="row-one">
+				<h1 class="contact-p"> <input type="ძებნა" placeholder="სახელი*" class="name1"></h1>
+				<h1 class="contact-p"> <input type="ძებნა" placeholder="ელფოსტა*" class="name1"></h1>
+			</div>
 
-				<h1 class="contact-p">სახელი*: <input type="ძებნა" name="ძებნა" class="name1"></h1>
-				<h1 class="contact-p">ელფოსტა*: <input type="ძებნა" name="ძებნა" class="name1"></h1>
-				<h1 class="contact-p">სათაური: <input type="ძებნა" name="ძებნა" class="name1"></h1>
-				<h1 class="contact-p">ტელეფონი*: <input type="ძებნა" name="ძებნა" class="name1"></h1>
-				<h1 class="contact-p">წერილი: <input type="ძებნა" name="ძებნა" class="name2"></h1>
+			<div class="row-two">
+				<h1 class="contact-p"> <input type="ძებნა" placeholder="სათაური" class="name1"></h1>
+				<h1 class="contact-p"> <input type="ძებნა" placeholder="ტელეფონი*" class="name1"></h1>
+			</div>	
+				<h1 class="contact-p"> <input type="ძებნა" placeholder="წერილი" class="name2"></h1>
 
 				<div class="verification">
 					<h1 class="contact-p-2">ჩაწერეთ სურათზე მოცემული სიმბოლოები</h1>

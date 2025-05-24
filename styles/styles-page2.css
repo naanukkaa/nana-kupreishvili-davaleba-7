@@ -1,7 +1,7 @@
-/* საერთო კოდი */
 body {
   background-color: white;
-  padding-top: 160px; 
+  padding-top: 160px;
+}
 
 header {
   padding: 20px 0;
@@ -26,7 +26,7 @@ a {
 
 li {
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 27px;
 }
 
 nav {
@@ -35,14 +35,14 @@ nav {
 }
 
 .container {
-  max-width: 1600px;
+  max-width: 1800px;
   width: 90%;
   margin: 0 auto;
 }
 
 /* Header */
 .navigation {
-  padding: 20px 0;
+  padding: 10px 0;
   background-color: white;
   text-align: center;
 }
@@ -55,16 +55,15 @@ nav {
   margin-right: 4px;
 }
 
-input[type="text"] {
-  width: 100px;
+input[placeholder="ძებნა"] {
+  width: 150px;
   padding: 2px;
   font-family: "BPG Mrgvlovani", sans-serif;
-  font-size: 11px;
+  font-size: 13px;
 }
 
-input[type="text"]:focus {
+input[placeholder="ძებნა"]:focus {
   width: 150px;
-  transition: 1s;
 }
 
 .top-logo {
@@ -102,6 +101,10 @@ input[type="text"]:focus {
   margin-left: 4px;
   margin-right: 180px;
   vertical-align: middle;
+}
+.apothecas-opt{
+  position: relative;
+  left: 20px;
 }
 
 .location-on {
